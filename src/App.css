@@ -1,0 +1,91 @@
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.dashboard {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 300px;
+    gap: 40px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+}
+
+.items-sold {
+    padding: 30px;
+    border: 1px solid #2A9D8F;
+    color: #2A9D8F;
+    background-color: #EFFBF9;
+    border-radius: 6px;
+
+}
+
+.items-purchased {
+    padding: 30px;
+    border: 1px solid #E24D28;
+    color: #E24D28;
+    background-color: #FDF0ED;
+    border-radius: 6px;
+
+}
+
+.items-to-sell {
+    padding: 30px;
+    border: 1px solid #47829A;
+    color: #47829A;
+    background-color: #F1F6F9;
+    border-radius: 6px;
+
+}
+
+.product-best-selling {
+    display: flex;
+    align-items: center;
+    border: 2px dashed black;
+    border-radius: 6px;
+    background-color: #ededed;
+}
+
+
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    font-size: 18px;
+    padding: 20px;
+    
+}
+
+
+.product-name {
+    font-size: 26px;
+}
+.product-price {
+    color: #000000;
+    font-size: 32px;
+}
+
+.avalible-list {
+    font-size: 20px;
+}
+
+.product-image img {
+    max-width: 350px; /* Maak de afbeelding kleiner, bijvoorbeeld 100px breed */
+    object-fit: contain; /* Zorg ervoor dat de afbeelding proportioneel blijft */
+    margin-left: 40px;
+}

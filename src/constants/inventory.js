@@ -33,7 +33,7 @@ export const bestSellingTv = {
         }
     ],
     originalStock: 52,
-    sold: 17,
+    sold: 17
 }
 
 // STATISCHE VOORRAAD TV'S
